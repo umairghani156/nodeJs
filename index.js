@@ -4,11 +4,7 @@ import fs from "fs";
 const app = express();
 
 app.get('/profile', (req, res)=>{
-    res.status(200).send({
-        name: "Umair",
-        age: 23,
-        class: "Graduation"
-    })
+    res.status(200).send("Hello world This is my first hosting on cyclic")
 })
 
 
